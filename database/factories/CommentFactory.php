@@ -17,7 +17,7 @@ class CommentFactory extends Factory
     public function definition(): array
     {
         return [
-            'content' => $this->faker->words(),
+            'content' => $this->faker->paragraph(),
             'user_id' => rand(0, 10),
             'post_id' => rand(0, 100),
         ];
