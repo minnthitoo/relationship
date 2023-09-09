@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Comment;
+use App\Models\Phone;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -24,7 +25,13 @@ class DatabaseSeeder extends Seeder
         // ]);
         // User::factory(10)->create();
         // Post::factory(100)->create();
-        Comment::factory(1000)->create();
+        // Comment::factory(1000)->create();
+        // for($i = 0; $i < 10; $i++){
+        //     Phone::factory()->create([
+        //         'name' => 'infinex',
+        //         'user_id' => $i
+        //     ]);
+        // }
 
     }
 }
